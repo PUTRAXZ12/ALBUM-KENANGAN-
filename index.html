@@ -1,1 +1,98 @@
-IXC<a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLg6BPm9TdoKFncB_XUiATlSUr_X9r09oqwKbHef-1HH43O_LFcidTdaCdaY6JOBYbLVN-oA8pwd3zT65VQB7t2cmikeQAUGdMhWERSliUsZGUNooYWL760DFTWzcmMfjN4KvhyjyYB3J3I_MomWASb1vnRzbsfZGiXOplodSrUJ7HzOtkqjrUX4t1j2M/s2000/Kuning%20Groovy%20Album%20SMA%20Kolase%20Buku%20Album.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="1545" data-original-width="2000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLg6BPm9TdoKFncB_XUiATlSUr_X9r09oqwKbHef-1HH43O_LFcidTdaCdaY6JOBYbLVN-oA8pwd3zT65VQB7t2cmikeQAUGdMhWERSliUsZGUNooYWL760DFTWzcmMfjN4KvhyjyYB3J3I_MomWASb1vnRzbsfZGiXOplodSrUJ7HzOtkqjrUX4t1j2M/s400/Kuning%20Groovy%20Album%20SMA%20Kolase%20Buku%20Album.png"/></a></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .grid-item {
+      position: relative;
+    }
+    
+    .grid-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .grid-item .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    
+    .grid-item:hover .overlay {
+      opacity: 1;
+    }
+    
+    .music-player {
+      margin-top: 20px;
+      text-align: center;
+    }
+    
+    .music-player audio {
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item">
+      <img src="foto1.jpg" alt="Foto 1">
+      <div class="overlay">
+        <h3>Foto 1</h3>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="foto2.jpg" alt="Foto 2">
+      <div class="overlay">
+        <h3>Foto 2</h3>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="foto3.jpg" alt="Foto 3">
+      <div class="overlay">
+        <h3>Foto 3</h3>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="foto4.jpg" alt="Foto 4">
+      <div class="overlay">
+        <h3>Foto 4</h3>
+      </div>
+    </div>
+    <div class="grid-item">
+      <img src="foto5.jpg" alt="Foto 5">
+      <div class="overlay">
+        <h3>Foto 5</h3>
+      </div>
+    </div>
+  
+  <div class="music-player">
+    <audio controls>
+      <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+  </html>
+  
